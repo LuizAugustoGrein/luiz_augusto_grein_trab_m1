@@ -64,6 +64,10 @@ table th{
                             <th align="left">{{$produto->cor}}</th>
                         </tr>
                         <tr>
+                            <th align="left"><strong>@lang('Peso')</strong>:</th>
+                            <th align="left">{{$produto->peso}}</th>
+                        </tr>
+                        <tr>
                             <th align="left"><strong>@lang('Descricao')</strong>:</th>
                             <th align="left">{{$produto->descricao}}</th>
                         </tr>

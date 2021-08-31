@@ -16,7 +16,7 @@
                 <div class="card-header">
                     <div class="d-flex justify-content-between w-100">
                         <span>@lang('Criar (CRUD Laravel)')</span>
-                        <a href="{{ url('produtos') }}" class="btn-info btn-sm">
+                        <a href="{{ url('prod') }}" class="btn-info btn-sm">
                             <i class="fa fa-arrow-left"></i> @lang('Voltar')
                         </a>
                     </div>
